@@ -14,7 +14,7 @@ def load_model():
 tokenizer, model = load_model()
 
 # Title
-st.title("Fine-Tuned Flan-T5 QA Assistant")
+st.title(Fine-Tuned Flan-T5 QA Assistant By Ganesh")
 
 # Text input
 user_input = st.text_area("Enter your instruction (e.g., 'Show GTIN and product code for...')")
