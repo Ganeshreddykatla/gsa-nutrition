@@ -3,7 +3,9 @@ import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 # Load fine-tuned model from Hugging Face
-MODEL_NAME = "Ramu143/fine_tuned_flan"  # replace with your actual HF repo name
+# MODEL_NAME = "Ramu143/fine_tuned_flan"  # replace with your actual HF repo name
+
+MODEL_NAME = "ganeshcreatives/gsa-nutrition-cybersoft" 
 
 @st.cache_resource
 def load_model():
